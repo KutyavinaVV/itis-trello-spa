@@ -6,11 +6,11 @@ import CheckBox from "../../atoms/Checkbox";
 
 const ToDoList = ({ list, onRemove, onCheck }) => (
         <StyledList>
-            {list.map(( {text,checked, id}, i) => (
-                <ToDoListItem id={id} key={`${i}-${text}`} checked={checked} >
+            {list.map(( {title,checked, id}, i) => (
+                <ToDoListItem id={id} key={`${i}-${title}`} checked={checked} >
                     <CheckBox onChange={(ev) => onCheck(ev, i)} />
                     <Link to={`tasks/${id}`}>
-                        <span>{text}</span>
+                        <span>{title}</span>
                     </Link>
                     <Button error outlined onClick={() => onRemove(i)}>
                         X
