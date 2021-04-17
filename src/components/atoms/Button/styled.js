@@ -9,6 +9,7 @@ export const StyledButton = styled.button(
       margin: 10px;
       width: 60px;
       height: 25px;
+      text-align: center;
       
       &:hover {
         box-shadow: 0 0 10px rgba(0,0,0,0.5);

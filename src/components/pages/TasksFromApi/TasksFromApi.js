@@ -2,6 +2,7 @@
 import { Wrapper } from '../ToDoPage/styled'
 import useTasks from "../../../hooks/useTasks";
 import ToDoList from "../../molecules/ToDoList";
+import Loader from "../../atoms/Loader";
 
 const TaskPage = () => {
 
@@ -9,6 +10,7 @@ const TaskPage = () => {
     console.log(tasks)
     return (
         <Wrapper>
+            {loading && <Loader />}
             <ToDoList list={tasks}  />
         </Wrapper>
     )

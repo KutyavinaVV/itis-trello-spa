@@ -5,7 +5,8 @@ import Background from '../../molecules/Background';
 const Homepage = () => (
     <>
       <Background />
-      <MainLink link={routes.TASKS} />
+      <MainLink link={routes.TASKS}> Tasks</MainLink>
+      <MainLink link={routes.TASKAPI}>Tasks from api</MainLink>
     </>
 );
 

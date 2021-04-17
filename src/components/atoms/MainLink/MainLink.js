@@ -2,9 +2,9 @@ import React from "react";
 import {Link} from 'react-router-dom'
 import { StyledLink} from "./styled";
 
-const MainLink = ({ link }) => (
+const MainLink = ({ link, children }) => (
     <>
-    <StyledLink><Link to={link} >Tasks</Link></StyledLink>
+        <StyledLink><Link to={link}> {children} </Link></StyledLink>
     </>
 )
 

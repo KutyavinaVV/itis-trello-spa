@@ -4,6 +4,7 @@ import ToDoPage from './components/pages/ToDoPage';
 import HomePage from "./components/pages/HomePage/HomePage";
 import TaskPage from "./components/pages/TaskPage";
 import TasksFromApi from "./components/pages/TasksFromApi/TasksFromApi";
+import ListsPage from "./components/pages/ListsPage"
 import ApolloClient from '../src/lib/ApoloClient'
 
 const App = () => (
@@ -24,6 +25,10 @@ const App = () => (
 
                 <Route exact path='/tasksg'>
                     <TasksFromApi />
+                </Route>
+
+                <Route exact path='/tasksg'>
+                    <ListsPage />
                 </Route>
             </Switch>
         </BrowserRouter>

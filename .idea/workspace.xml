@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e09c523e-e21d-4131-86bf-6d261ffeabd2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.husky/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/itis-trello-spa.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/atoms/Button/styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/Button/styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/atoms/MainLink/styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/MainLink/styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/HomePage/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/HomePage/HomePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/TasksFromApi/TasksFromApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/TasksFromApi/TasksFromApi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/ToDoPage/ToDoPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/ToDoPage/ToDoPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +65,9 @@
       <workItem from="1618215758343" duration="105000" />
       <workItem from="1618232541301" duration="2793000" />
       <workItem from="1618235356730" duration="12000" />
+      <workItem from="1618235379521" duration="489000" />
+      <workItem from="1618308197822" duration="28000" />
+      <workItem from="1618654606705" duration="1489000" />
     </task>
     <servers />
   </component>

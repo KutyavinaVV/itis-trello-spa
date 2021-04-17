@@ -1,5 +1,7 @@
 export default {
     HOME: '/',
     TASKS: '/tasks',
-    TASK: '/tasks/:id'
+    TASK: '/tasks/:id',
+    TASKAPI: '/tasksg',
+    LISTS: '/lists'
 };
