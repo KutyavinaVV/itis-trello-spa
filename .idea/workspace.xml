@@ -7,6 +7,7 @@
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/atoms/Button/styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/Button/styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/atoms/MainLink/MainLink.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/MainLink/MainLink.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/atoms/MainLink/styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/MainLink/styled.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/pages/HomePage/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/HomePage/HomePage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/pages/TasksFromApi/TasksFromApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/TasksFromApi/TasksFromApi.js" afterDir="false" />
@@ -67,7 +68,7 @@
       <workItem from="1618235356730" duration="12000" />
       <workItem from="1618235379521" duration="489000" />
       <workItem from="1618308197822" duration="28000" />
-      <workItem from="1618654606705" duration="1489000" />
+      <workItem from="1618654606705" duration="1824000" />
     </task>
     <servers />
   </component>
