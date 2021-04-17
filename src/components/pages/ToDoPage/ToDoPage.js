@@ -20,7 +20,7 @@ const ToDoPage = () => {
     }, [initialList, list, listUnSaved]);
 
     const onAddNewListItem = (value) => {
-        setList([...list, { text: value, checked: false,  id: list.length }]);
+        setList([...list, { title: value, checked: false,  id: list.length }]);
     };
     const handleRemove = (i) => setList(list.filter((elem, index) => i !== index));
 

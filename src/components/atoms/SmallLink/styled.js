@@ -2,15 +2,14 @@ import styled from "styled-components";
 
 export const StyledLink = styled.span`
     & a {
-      font-size: 1.5rem;
+      font-size: 1rem;
       text-decoration: none;
       display: inline-block;
-      padding: 0.7rem;
+      padding: 0.4rem 0.7rem;
       background: slateblue;
       color: white;
       border: 2px solid slateblue;
       box-shadow: 0 0 10px rgba(0,0,0,0.5);
-      text-align: center;   
-      margin: 0.5rem;
+      text-align: center;
 }
 `

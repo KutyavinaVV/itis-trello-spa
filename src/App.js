@@ -27,7 +27,7 @@ const App = () => (
                     <TasksFromApi />
                 </Route>
 
-                <Route exact path='/tasksg'>
+                <Route exact path='/lists'>
                     <ListsPage />
                 </Route>
             </Switch>
