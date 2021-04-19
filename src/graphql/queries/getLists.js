@@ -1,4 +1,5 @@
 import { gql } from '@apollo/client';
+import task from '../fragments/task';
 
 export default gql`
     query getLists {
@@ -6,10 +7,9 @@ export default gql`
             title
             id
             tasks {
-                id
-                title
-                createdAt
+                ...TaskFragment
             }
         }
     }
-`
+    ${task}
+`;

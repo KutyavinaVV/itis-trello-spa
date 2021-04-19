@@ -7,16 +7,18 @@ import Loader from "../../atoms/Loader";
 import useTask from "../../../hooks/useTask";
 import {VerticalLine} from "../ToDoPage/styled";
 import SmallLink from "../../atoms/SmallLink";
+import useRemoveTask from "../../../hooks/useRemoveTask";
 
 const TaskPage = () => {
     const { id: id } = useParams();
     const {task, loading} = useTask(id);
+    const {remove} = useRemoveTask();
 
     return (
         <>
             <VerticalLine />
             <Wrapper>
-                <ToDoListItem checked={false} info={task?.createdAt}>{task?.title} </ToDoListItem>
+                <ToDoListItem id={id} onRemove={remove} checked={false} info={task?.createdAt}>{task?.title} </ToDoListItem>
                 <LinkWrapper>
                     <SmallLink  link={routs.LISTS}> Back </SmallLink>
                 </LinkWrapper>
