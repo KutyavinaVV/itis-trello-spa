@@ -34,3 +34,12 @@ export const StyledInfo = styled.li`
     
 `
 
+export const StyledLink = styled.a`
+    display: inline-block;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    &:first-child {
+      margin-left: 0;
+    }
+`
+
