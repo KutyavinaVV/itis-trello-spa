@@ -18,7 +18,7 @@ const TaskPage = () => {
         <>
             <VerticalLine />
             <Wrapper>
-                <ToDoListItem id={id} onRemove={remove} checked={false} info={task?.createdAt}>{task?.title} </ToDoListItem>
+                <ToDoListItem id={id} isTask onRemove={remove} checked={false} info={task?.createdAt}>{task?.title} </ToDoListItem>
                 <LinkWrapper>
                     <SmallLink  link={routs.LISTS}> Back </SmallLink>
                 </LinkWrapper>

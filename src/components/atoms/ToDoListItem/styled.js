@@ -20,6 +20,7 @@ export const StyledItem = styled.li(
     a {
       text-decoration: none;
       color: black;
+      margin-right: 0.5rem;
       :hover {
         text-decoration: underline;
       }

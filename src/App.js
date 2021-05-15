@@ -6,6 +6,7 @@ import TaskPage from "./components/pages/TaskPage";
 import TasksFromApi from "./components/pages/TasksFromApi/TasksFromApi";
 import ListsPage from "./components/pages/ListsPage"
 import ApolloClient from '../src/lib/ApoloClient'
+import EditPage from "./components/pages/EditPage";
 
 const App = () => (
     <ApolloProvider client={ApolloClient}>
@@ -21,6 +22,10 @@ const App = () => (
 
                 <Route exact path='/tasks/:id'>
                     <TaskPage />
+                </Route>
+
+                <Route exact path='/tasks/edit/:id'>
+                    <EditPage />
                 </Route>
 
                 <Route exact path='/tasksg'>
