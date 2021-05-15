@@ -4,7 +4,7 @@ import Input from '../../atoms/Input';
 import { Wrapper } from "./styled";
 
 const EditTaskForm = ({ onSubmit, task }) => {
-    const [value, setValue] = useState(task.title);
+    const [value, setValue] = useState(task?.title);
 
     const handleSubmit = () => {
         console.log(value)
@@ -14,8 +14,8 @@ const EditTaskForm = ({ onSubmit, task }) => {
 
     return (
         <Wrapper>
-            <Input onChange={setValue} value={value} />
-            <Button primary onClick={handleSubmit}>
+            <Input data-testid='title-input' onChange={setValue} value={value} />
+            <Button data-testid='edit-button' primary onClick={handleSubmit}>
                 Update!
             </Button>
         </Wrapper>

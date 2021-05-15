@@ -4,7 +4,7 @@ import { StyledSpinner } from './styled';
 const Spinner = ({ customStyles }) => {
   return (
     <StyledSpinner customStyles={customStyles}>
-      <div />
+      <div data-testid="loader"  />
       <div />
       <div />
       <div />

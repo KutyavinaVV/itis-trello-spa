@@ -18,11 +18,14 @@ const TaskPage = () => {
         <>
             <VerticalLine />
             <Wrapper>
-                <ToDoListItem id={id} isTask onRemove={remove} checked={false} info={task?.createdAt}>{task?.title} </ToDoListItem>
-                <LinkWrapper>
-                    <SmallLink  link={routs.LISTS}> Back </SmallLink>
-                </LinkWrapper>
                 {loading && <Loader />}
+                {!loading && <> <ToDoListItem id={id} isTask onRemove={remove} checked={false}
+                                           info={task?.createdAt}>{task?.title} </ToDoListItem>
+                    <LinkWrapper>
+                    <SmallLink  link={routs.LISTS}> Back </SmallLink>
+                    </LinkWrapper>
+                </>
+                }
             </Wrapper>
         </>
     )

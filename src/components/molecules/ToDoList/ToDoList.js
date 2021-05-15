@@ -6,7 +6,7 @@ import CheckBox from "../../atoms/Checkbox";
 
 const ToDoList = ({ list, onRemove, onCheck }) => (
         <StyledList>
-            {list.map(( {title,checked, id}, i) => (
+            {list?.map(( {title,checked, id}, i) => (
                 <ToDoListItem id={id} key={`${i}-${title}`} checked={checked} >
                     <CheckBox onChange={(ev) => onCheck(ev, i)} />
                     <Link to={`tasks/${id}`}>
