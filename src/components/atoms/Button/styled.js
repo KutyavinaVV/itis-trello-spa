@@ -4,11 +4,9 @@ export const StyledButton = styled.button(
     ({disabled}) => css`
       color:white;
       background: slateblue;
-      padding: 1px;
+      padding: 10px;
       border: none;
       margin: 10px;
-      width: 60px;
-      height: 25px;
       text-align: center;
       
       &:hover {

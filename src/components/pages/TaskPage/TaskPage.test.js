@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import useTasks from "../../../hooks/useTasks";
+import useTasks from "../../../hooks/query/useTasks";
 import TaskPage from "../TasksFromApi/TasksFromApi";
 
 jest.mock('../../../hooks/useTasks');

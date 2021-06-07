@@ -4,10 +4,10 @@ import React from "react";
 import ToDoListItem from "../../atoms/ToDoListItem";
 import { Wrapper, LinkWrapper } from './styled'
 import Loader from "../../atoms/Loader";
-import useTask from "../../../hooks/useTask";
+import useTask from "../../../hooks/query/useTask";
 import {VerticalLine} from "../ToDoPage/styled";
 import SmallLink from "../../atoms/SmallLink";
-import useRemoveTask from "../../../hooks/useRemoveTask";
+import useRemoveTask from "../../../hooks/mutation/useRemoveTask";
 
 const TaskPage = () => {
     const { id: id } = useParams();

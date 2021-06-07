@@ -2,10 +2,10 @@ import React from "react";
 import EditTaskForm from "../../molecules/EditTaksForm";
 import {VerticalLine} from "../ToDoPage/styled";
 import {useParams} from "react-router-dom";
-import useTask from "../../../hooks/useTask";
+import useTask from "../../../hooks/query/useTask";
 import ToDoListItem from "../../atoms/ToDoListItem";
 import { Wrapper} from "./styled";
-import useUpdateTask from "../../../hooks/useUpdateTask";
+import useUpdateTask from "../../../hooks/mutation/useUpdateTask";
 
 export const EditPage = () => {
 

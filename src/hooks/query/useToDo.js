@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import todos from '../config/tasks';
+import todos from '../../config/tasks';
 
 const useToDo = () => {
     const [list, setList] = useState(todos);

@@ -1,5 +1,5 @@
 import { useQuery } from "@apollo/client";
-import getTask from "../graphql/queries/getTask";
+import getTask from "../../graphql/queries/getTask";
 
 const useTask = id => {
     const taskId = +id;

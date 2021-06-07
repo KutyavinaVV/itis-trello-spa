@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Wrapper, Title, VerticalLine } from "./styled";
 import ToDoList from '../../molecules/ToDoList';
 import ToDoForm from '../../molecules/ToDoForm';
-import useToDo from "../../../hooks/useToDo";
+import useToDo from "../../../hooks/query/useToDo";
 import Button from "../../atoms/Button";
 
 const ToDoPage = () => {

@@ -1,10 +1,11 @@
 import React from 'react'
 import Task from "../../atoms/Task";
 import { Wrapper, Title, StyledList } from "./styled";
+import CreateTaskForm from "../CreateTaskForm";
 
 
 const TaskList = ({ list }) => {
-    const { tasks, title } = list;
+    const { tasks, title, id } = list;
 
     return (
         <Wrapper>
@@ -14,6 +15,7 @@ const TaskList = ({ list }) => {
                     <Task task={ task } />
                 ))}
             </StyledList>
+            <CreateTaskForm listId={id} />
         </Wrapper>
     );
 }

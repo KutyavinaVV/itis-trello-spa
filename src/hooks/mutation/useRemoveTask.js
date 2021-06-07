@@ -1,6 +1,6 @@
 import { useMutation } from '@apollo/client';
-import getLists from '../graphql/queries/getLists';
-import removeTask from '../graphql/mutations/removeTask';
+import getLists from '../../graphql/queries/getLists';
+import removeTask from '../../graphql/mutations/removeTask';
 
 const useRemoveTask = () => {
     const [mutation, { data, error, loading }] = useMutation(removeTask, {

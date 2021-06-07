@@ -1,15 +1,15 @@
 import { useMutation } from '@apollo/client';
-import getTasks from '../graphql/queries/getTasks';
-import createTask from "../graphql/mutations/createTask";
+import createTask from "../../graphql/mutations/createTask";
+import getLists from "../../graphql/queries/getLists";
 
 
 const useCreateTask = () => {
     const [mutation, { data, error, loading }] = useMutation(createTask, {
-        refetchQueries: [{ query: getTasks }],
+        refetchQueries: [{ query: getLists }],
     });
 
     const create = async (title, id) => {
-        await mutation({ variables: { input: { title, id } } });
+        await mutation({ variables: { input: { title, listId: +id } } });
     };
 
     return {

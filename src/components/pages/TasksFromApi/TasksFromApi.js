@@ -1,6 +1,6 @@
 
 import { Wrapper } from '../ToDoPage/styled'
-import useTasks from "../../../hooks/useTasks";
+import useTasks from "../../../hooks/query/useTasks";
 import ToDoList from "../../molecules/ToDoList";
 import Loader from "../../atoms/Loader";
 
